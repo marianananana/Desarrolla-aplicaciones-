@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<h1 id="indice">Ejemplo de pagina web COLOR</h1>
+
+	<button id="rojo" onmouseover="cambiaARojo()">ROJO</button>
+	<button id="azul" onmouseover="cambiaAAzul()">AZUL</button>
+	<button id="verde" onmouseover="cambiaAVerde()">VERDE</button>
+
+	<script type="text/javascript">
+		
+		function cambiaARojo(){
+
+			//alert("Cambia color a rojo");
+			document.getElementById("rojo").style.color="red";
+			document.getElementById("indice").style.color="red";
+
+		}
+
+		function cambiaAAzul(){
+			//alert("Cambia color a rojo");
+			
+			document.getElementById("azul").style.color="blue";
+			document.getElementById("indice").style.color="blue";
+		}
+
+		function cambiaAVerde(){
+			//alert("Cambia color a rojo");
+			
+			document.getElementById("verde").style.color="green";
+			document.getElementById("indice").style.color="green";
+		}
+
+	</script>
+
+
+</body>
+</html>
